@@ -1,0 +1,240 @@
+@import url("https://fonts.googleapis.com/css2?family=Yaldevi:wght@200;300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Yaldevi", sans-serif;
+  /* size: auto; */
+}
+
+/* h1 {
+	color: green;
+	font-size: 80px;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 22px;
+}
+
+h6 {
+	color: green;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 60px;
+	margin-bottom: 20px;
+} */
+
+.myProducts-gallery img {
+  height: 92px;
+  margin: 10px 0;
+  cursor: pointer;
+  display: block;
+  opacity: 0.5;
+}
+
+.myProducts-gallery img:hover {
+  opacity: 1;
+}
+
+.myProducts-gallery {
+  float: left;
+}
+
+.myProducts {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
+.myProducts2-gallery img {
+  height: 100px;
+  margin: 10px 0;
+  cursor: pointer;
+  display: block;
+  opacity: 0.5;
+}
+.myProducts3-gallery img {
+  height: 92px;
+  margin: 10px 0;
+  cursor: pointer;
+  display: block;
+  opacity: 0.5;
+}
+.myProducts2-gallery img:hover {
+  opacity: 1;
+}
+
+.myProducts2-gallery {
+  float: left;
+}
+.myProducts3-gallery img:hover {
+  opacity: 1;
+}
+
+.myProducts3-gallery {
+  float: left;
+}
+.myProducts2 {
+  top: 1300px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
+.myProducts3 {
+  top: 800px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
+.image-container img {
+  height: 200px;
+  transition: transform 1s;
+}
+.image-container2 img {
+  height: 200px;
+  transition: transform 1s;
+}
+.image-container3 img {
+  height: 200px;
+  transition: transform 1s;
+}
+
+.image-container img:hover {
+  transform: scale(1.5);
+  cursor: zoom-in;
+}
+.image-container2 img:hover {
+  transform: scale(1.5);
+  cursor: zoom-in;
+}
+.image-container3 img:hover {
+  transform: scale(1.5);
+  cursor: zoom-in;
+}
+
+.image-container {
+  float: right;
+  padding: 10px;
+}
+.image-container2 {
+  float: right;
+  padding: 10px;
+}
+.image-container3 {
+  float: right;
+  padding: 10px;
+}
+.project {
+  display: flexbox;
+
+  position: relative;
+  flex-wrap: wrap;
+  width: 250px;
+  top: 90%;
+}
+.project2 {
+  display: flexbox;
+  top: 1100px;
+  position: absolute;
+  flex-wrap: wrap;
+  width: 250px;
+}
+.project3 {
+  display: flexbox;
+  top: 630px;
+  position: absolute;
+  flex-wrap: wrap;
+  width: 250px;
+}
+#pic1 {
+  width: 250px;
+  height: 450px;
+  position: absolute;
+  top:240px;
+  left:1050px
+}
+#pic2 {
+	position:absolute;
+		width: 450px;
+	height: 450px;
+  top:220px;
+  left:800px;
+
+  }
+  #pic3 {
+	position:absolute;
+		width: 450px;
+	height: 450px;
+  top:120px;
+  left:700px;
+
+  }
+  .fa {
+	padding: 20px;
+	font-size: 30px;
+	width: 50px;
+	text-align: center;
+	text-decoration: none;
+	margin: 5px 2px;
+  }
+  
+  .fa:hover {
+	  opacity: 0.7;
+  }
+  
+  .fa-facebook {
+   background: blue;
+	color: white;
+  }
+  .fa-google {
+	background: #dd4b39;
+	color: white;
+  }
+
+  .fa-linkedin {
+	background: #007bb5;
+	color: white;
+  }
+  .fa-github {
+	background: #9e4c4c;
+	color: white;
+  }
+  .call{
+	display: flex;
+	gap: 10px;
+  }
+  #pic5{
+	position:absolute;
+		width: 450px;
+	height: 450px;
+  top:120px;
+  left:700px;
+  }
+ #p{
+  background-color: white;
+ }
+ @media (min-width: 268px) and (max-width: 767px){
+  .myProducts {
+left: 300px;
+
+  }
+  #pic4{
+    width:340px ;
+  }
+  #pic3{
+    width: 100px;
+    height: 100px;
+    top:120px;
+    left:270px;
+  }
+  #pic2{
+display: none;
+  }
+  #pic5{
+    display: none;
+  }
+  #pic1{
+    display: none;
+  }
+  
+ }

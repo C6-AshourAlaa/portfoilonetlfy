@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projects</title>
+    <!--Style CSS-->
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body class="p-3 mb-2 bg-dark text-white">
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="./index.html">Home</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./about.html"
+                >About</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./skills.html">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./projects.html">Projects</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <br />
+    <br />
+
+    <!-- project2 -->
+
+    <div class="myProducts">
+      <div class="myProducts-gallery">
+        <img
+          src="./img/p401.png"
+          alt="click here"
+          onclick="myImageFunction(this)"
+        />
+        <img
+          src="./img/p402.png"
+          alt="click here"
+          onclick="myImageFunction(this)"
+        />
+        <img
+          src="./img/p403.png"
+          alt="click here"
+          onclick="myImageFunction(this)"
+        />
+        <img
+          src="./img/p404.png"
+          alt="click here"
+          onclick="myImageFunction(this)"
+        />
+      </div>
+
+      <div class="image-container">
+        <img id="img-Box" src="./img/p401.png" alt="click here" />
+      </div>
+    </div>
+
+    <script>
+      function myImageFunction(productSmallImg) {
+        const productFullImg = document.getElementById("img-Box");
+        productFullImg.src = productSmallImg.src;
+      }
+    </script>
+    <div class="project">
+      <h2>Food Recipes</h2>
+      <h4>
+      Food recipes is full-stack web site designed to help people to find recipes and also can favourite them alse you can signUp with google in this app
+      </h4>
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+    </div>
+    <!--  -->
+
+    <div class="myProducts3">
+      <div class="myProducts3-gallery">
+        <img
+          src="./img/302.png"
+          alt="click here"
+          onclick="myImageFunction3(this)"
+        />
+        <img
+          src="./img/303.png"
+          alt="click here"
+          onclick="myImageFunction3(this)"
+        />
+        <img
+          src="./img/304.png"
+          alt="click here"
+          onclick="myImageFunction3(this)"
+        />
+        <img
+          src="./img/305.png"
+          alt="click here"
+          onclick="myImageFunction3(this)"
+        />
+      </div>
+
+      <div class="image-container3">
+        <img id="img-Box3" src="./img/301.png" alt="click here" />
+      </div>
+    </div>
+
+    <script>
+      function myImageFunction3(productSmallImg3) {
+        const productFullImg3 = document.getElementById("img-Box3");
+        productFullImg3.src = productSmallImg3.src;
+      }
+    </script>
+    <div class="project3">
+      <h2>Blue look</h2>
+      <h4>
+       E-commerce web application specilized in sportswear
+       you can see and look for products but if you want to buy or favourite product you have to register or login by google account and you can  by online by credit card
+      </h4>
+    </div>
+
+
+    
+    <div class="myProducts2">
+      <div class="myProducts2-gallery">
+        <img
+          src="./img/p201.png"
+          alt="click here"
+          onclick="myImageFunction2(this)"
+        />
+        <img
+          src="./img/p202.png"
+          alt="click here"
+          onclick="myImageFunction2(this)"
+        />
+        <img
+          src="./img/p203.png"
+          alt="click here"
+          onclick="myImageFunction2(this)"
+        />
+        <img
+          src="./img/p204.png"
+          alt="click here"
+          onclick="myImageFunction2(this)"
+        />
+      </div>
+
+      <div class="image-container2">
+        <img id="img-Box2" src="./img/p201.png" alt="click here" />
+      </div>
+    </div>
+
+    <script>
+      function myImageFunction2(productSmallImg2) {
+        const productFullImg2 = document.getElementById("img-Box2");
+        productFullImg2.src = productSmallImg2.src;
+      }
+    </script>
+    <div class="project2">
+      <h2>Money Manger</h2>
+      <h4>
+        Money Manger is a project that allows you to manage your incomes and
+        outcomes and give you a chart of your expensives and its support dark
+        mode and mobile responsive
+      </h4>
+    </div> 
+    <img id="pic1" src="./img/binary.svg" />
+  </body>
+</html>
